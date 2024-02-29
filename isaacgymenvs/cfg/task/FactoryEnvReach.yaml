@@ -1,0 +1,20 @@
+# See schema in factory_schema_config_env.py for descriptions of common parameters.
+
+defaults:
+    - FactoryBase
+    - _self_
+    - /factory_schema_config_env
+
+sim:
+    disable_franka_collisions: False
+
+env:
+    env_name: 'FactoryEnvReach'
+
+    franka_depth: 0.2
+
+    goal_density: 7850.0
+    goal_radius: 0.01
+    goal_height_offset: 0.5  # Z-axis offset of goal above table before initial reset
+    goal_lateral_offset: 0.1  # Y-axis offset of goal before initial reset to prevent initial interpenetration with franka
+    goal_friction: 0.3

@@ -1,0 +1,9 @@
+isaacgymenvs/log/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.vscode/
+
+isaacgymenvs/runs/
+isaacgymenvs/wandb/
+isaacgymenvs/cfg/config.yaml
