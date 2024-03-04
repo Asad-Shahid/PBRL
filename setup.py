@@ -19,6 +19,7 @@ INSTALL_REQUIRES = [
     "omegaconf",
     "termcolor",
     "jinja2",
+    "matplotlib",
     "hydra-core>=1.2",
     "rl-games>=1.6.0",
     "pyvirtualdisplay",
@@ -26,6 +27,10 @@ INSTALL_REQUIRES = [
     "pysdf==0.1.9",
     "warp-lang==0.10.1",
     "trimesh==3.23.5",
+    "mpi4py==3.1.4",
+    "colorlog==6.7.0",
+    "tqdm==4.65.0",
+    "numpy<1.24",
     ]
 
 
