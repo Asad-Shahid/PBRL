@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Shahid"
+  given-names: "Asad Ali"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Narang"
+  given-names: "Yashraj"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Petrone"
+  given-names: "Vincenzo"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Ferrentino"
+  given-names: "Enrico"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Fox"
+  given-names: "Dieter"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Pavone"
+  given-names: "Marco"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Roveda"
+  given-names: "Loris"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2024-03-04
+url: "https://github.com/Asad-Shahid/PBRL"
