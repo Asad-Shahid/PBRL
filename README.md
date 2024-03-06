@@ -62,7 +62,7 @@ All other arguments can be found in [`cfg/pbrl/_init__.py`](./isaacgymenvs/cfg/p
 
 Please cite this work as:
 
-``` bibtex
+```bibtex
 @article{Shahid2024pbrl,
   author = {Asad Ali Shahid and Yashraj Narang and Vincenzo Petrone and Enrico Ferrentino and Dieter Fox and Marco Pavone and Loris Roveda},
   title = {Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation},
@@ -70,5 +70,19 @@ Please cite this work as:
   year = {2024},
   doi = {10.48550/arXiv.TBD.TBD},
   url = {https://doi.org/10.48550/arXiv.TBD.TBD},
+}
+```
+
+If you reuse our code, you can site this repo as:
+
+```bibtex
+@software{Shahid2024pbrlrepo,
+author = {Shahid, Asad Ali and Narang, Yashraj and Petrone, Vincenzo and Ferrentino, Enrico and Handa, Ankur and Fox, Dieter and Pavone, Marco and Roveda, Loris},
+doi = {10.5281/zenodo.TBD},
+month = mar,
+title = {{Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation}},
+url = {https://github.com/Asad-Shahid/PBRL},
+version = {1.0.0},
+year = {2024}
 }
 ```
