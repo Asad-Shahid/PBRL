@@ -1,5 +1,5 @@
 # PBRL - Population-Based Reinforcement Learning
-[Website](https://sites.google.com/view/pbrl) | [Paper](https://sites.google.com/view/pbrl) | [Videos](https://drive.google.com/file/d/1keHq58eQPqFtObyXEti-oR8SIek8KgLV/view)
+[Website](https://sites.google.com/view/pbrl) | [Paper]([https://sites.google.com/view/pbrl](https://doi.org/10.48550/arXiv.2404.03336)) | [Videos](https://youtu.be/mcwzVm8WoiA?feature=shared)
 
 ## About this repository
 
@@ -57,7 +57,6 @@ Some key arguments are:
 
 All other arguments can be found in [`cfg/pbrl/_init__.py`](./isaacgymenvs/cfg/pbrl/__init__.py)
 
-
 ## Citing
 
 Please cite this work as:
@@ -68,8 +67,8 @@ Please cite this work as:
   title = {Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation},
   journal = {arXiv preprint},
   year = {2024},
-  doi = {10.48550/arXiv.TBD.TBD},
-  url = {https://doi.org/10.48550/arXiv.TBD.TBD},
+  doi = {10.48550/arXiv.2404.03336},
+  url = {https://doi.org/10.48550/arXiv.2404.03336},
 }
 ```
 
