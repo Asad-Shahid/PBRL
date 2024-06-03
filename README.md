@@ -1,12 +1,11 @@
 # PBRL - Population-Based Reinforcement Learning
-[Website](https://sites.google.com/view/pbrl) | [Paper](https://doi.org/10.48550/arXiv.2404.03336) | [Videos](https://youtu.be/mcwzVm8WoiA?feature=shared)
+[Website](https://sites.google.com/view/pbrl) | [Paper (TBD)](https://drive.google.com/file/d/14q2x1IWzZCHZ_cnEgf1goXk-XWB4ju7W/view) | [Videos](https://drive.google.com/file/d/14q2x1IWzZCHZ_cnEgf1goXk-XWB4ju7W/view)
 
 ## About this repository
 
 This repository contains the code to train RL agents in Population-Based manner.
 
 ![](pbrl-policy.gif)
-
 
 ## Installation
 
@@ -62,21 +61,21 @@ All other arguments can be found in [`cfg/pbrl/_init__.py`](./isaacgymenvs/cfg/p
 Please cite this work as:
 
 ```bibtex
-@article{Shahid2024pbrl,
-  author = {Asad Ali Shahid and Yashraj Narang and Vincenzo Petrone and Enrico Ferrentino and Ankur Handa and Dieter Fox and Marco Pavone and Loris Roveda},
+@article{ICINCO2024PBRL,
+  author = {Anonymous Authors},
   title = {Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation},
-  journal = {arXiv preprint},
+  journal = {Submitted to ICINCO2024},
   year = {2024},
-  doi = {10.48550/arXiv.2404.03336},
-  url = {https://doi.org/10.48550/arXiv.2404.03336},
+  doi = {TBD},
+  url = {https://doi.org/TBD},
 }
 ```
 
 If you reuse our code, you can site this repo as:
 
 ```bibtex
-@software{Shahid2024pbrlrepo,
-author = {Shahid, Asad Ali and Narang, Yashraj and Petrone, Vincenzo and Ferrentino, Enrico and Handa, Ankur and Fox, Dieter and Pavone, Marco and Roveda, Loris},
+@software{ICINCO2024PBRL,
+author = {Anonymous Authors},
 doi = {10.5281/zenodo.TBD},
 month = mar,
 title = {{Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation}},
