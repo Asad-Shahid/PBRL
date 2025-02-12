@@ -52,14 +52,15 @@ def argparser():
     parser.add_argument('--gpu', type=int, default=0)
     parser.add_argument('--task', type=str, default='AnymalTerrain')
     parser.add_argument('--sub_task', type=str, default='throw', help='only for AllegroKuka tasks')
-    parser.add_argument('--headless', type=str2bool, default=False)
+    parser.add_argument('--headless', type=str2bool, default=True)
 
     # Log
+    parser.add_argument('--verbose', type=str2bool, default=False)
     parser.add_argument('--log_interval', type=int, default=1)
     parser.add_argument('--evaluate_interval', type=int, default=10)
     parser.add_argument('--ckpt_interval', type=int, default=100)
     parser.add_argument('--log_root_dir', type=str, default='log')
-    parser.add_argument('--wandb', type=str2bool, default=False,
+    parser.add_argument('--wandb', type=str2bool, default=True,
                         help='set it True if you want to use wandb')
     parser.add_argument('--wandb_entity', type=str, default='panda', help='wandb user name')
     parser.add_argument('--wandb_project', type=str, default='anymal-terrain')

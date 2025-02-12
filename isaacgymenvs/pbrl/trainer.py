@@ -134,14 +134,16 @@ class Trainer():
 
             self._log_ep(log_step, ep_info)
             ep_info = defaultdict(list)
-            logger.info("ROLLOUT:")
-            for k, v in info.items():
-                logger.info('%s', {k: v})
+            if self.cfg.verbose:
+                logger.info("ROLLOUT:")
+                for k, v in info.items():
+                    logger.info('%s', {k: v})
 
             step_per_batch = mpi_sum(run_step)
 
             # train agents
-            logger.info('Update networks %d', update_iter)
+            if self.cfg.verbose:
+                logger.info('Update networks %d', update_iter)
 
             train_info_global = []
             for i in range(num_agents):
@@ -153,7 +155,8 @@ class Trainer():
                     train_info = self.agents[i].train(batch, i)
                 train_info_global.append(train_info)
 
-            logger.info('Update networks done')
+            if self.cfg.verbose:
+                logger.info('Update networks done')
 
             step += step_per_batch
             update_iter += 1
