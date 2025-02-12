@@ -7,3 +7,4 @@ __pycache__/
 isaacgymenvs/runs/
 isaacgymenvs/wandb/
 isaacgymenvs/cfg/config.yaml
+isaacgymenvs.egg-info
