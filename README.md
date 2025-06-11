@@ -62,11 +62,11 @@ All other arguments can be found in [`cfg/pbrl/_init__.py`](./isaacgymenvs/cfg/p
 Please cite this work as:
 
 ```bibtex
-@article{Shahid2024pbrl,
+@article{Shahid2025pbrl,
   author = {Asad Ali Shahid and Yashraj Narang and Vincenzo Petrone and Enrico Ferrentino and Ankur Handa and Dieter Fox and Marco Pavone and Loris Roveda},
-  title = {Scaling Population-Based Reinforcement Learning with GPU Accelerated Simulation},
+  title = {Benchmarking Population-Based Reinforcement Learning across Robotics Tasks with GPU Accelerated Simulation},
   journal = {arXiv preprint},
-  year = {2024},
+  year = {2025},
   doi = {10.48550/arXiv.2404.03336},
   url = {https://doi.org/10.48550/arXiv.2404.03336},
 }
