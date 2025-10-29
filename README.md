@@ -62,7 +62,7 @@ All other arguments can be found in [`cfg/pbrl/_init__.py`](./isaacgymenvs/cfg/p
 Please cite this work as:
 
 ```bibtex
- @inproceedings{PBRL_Shahid_2025,
+@inproceedings{PBRL_Shahid_2025,
   title={Benchmarking Population-Based Reinforcement Learning across Robotic Tasks with GPU-Accelerated Simulation},
   url={http://dx.doi.org/10.1109/case58245.2025.11163870},
   DOI={10.1109/case58245.2025.11163870},
