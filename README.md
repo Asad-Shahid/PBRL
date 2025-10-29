@@ -1,5 +1,5 @@
 # PBRL - Population-Based Reinforcement Learning
-[Website](https://sites.google.com/view/pbrl) | [Paper](https://doi.org/10.48550/arXiv.2404.03336) | [Videos](https://youtu.be/mcwzVm8WoiA?feature=shared)
+[Website](https://sites.google.com/view/pbrl) | [Paper](https://doi.org/10.1109/CASE58245.2025.11163870) | [arXiv](https://doi.org/10.48550/arXiv.2404.03336) | [Videos](https://youtu.be/mcwzVm8WoiA?feature=shared)
 
 ## About this repository
 
@@ -62,17 +62,21 @@ All other arguments can be found in [`cfg/pbrl/_init__.py`](./isaacgymenvs/cfg/p
 Please cite this work as:
 
 ```bibtex
-@article{Shahid2025pbrl,
-  author = {Asad Ali Shahid and Yashraj Narang and Vincenzo Petrone and Enrico Ferrentino and Ankur Handa and Dieter Fox and Marco Pavone and Loris Roveda},
-  title = {Benchmarking Population-Based Reinforcement Learning across Robotics Tasks with GPU Accelerated Simulation},
-  journal = {arXiv preprint},
-  year = {2025},
-  doi = {10.48550/arXiv.2404.03336},
-  url = {https://doi.org/10.48550/arXiv.2404.03336},
+ @inproceedings{PBRL_Shahid_2025,
+  title={Benchmarking Population-Based Reinforcement Learning across Robotic Tasks with GPU-Accelerated Simulation},
+  url={http://dx.doi.org/10.1109/case58245.2025.11163870},
+  DOI={10.1109/case58245.2025.11163870},
+  booktitle={2025 IEEE 21st International Conference on Automation Science and Engineering (CASE)},
+  publisher={IEEE},
+  author={Ali Shahid, Asad and Narang, Yashraj and Petrone, Vincenzo and Ferrentino, Enrico and Handa, Ankur and Fox, Dieter and Pavone, Marco and Roveda, Loris},
+  year={2025},
+  month=aug,
+  pages={1231–1238},
+  location={Los Angeles, CA, USA}
 }
 ```
 
-If you reuse our code, you can site this repo as:
+If you reuse our code, you can cite this repo as:
 
 ```bibtex
 @software{Shahid2024pbrlrepo,
