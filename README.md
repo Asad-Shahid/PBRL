@@ -68,7 +68,7 @@ Please cite this work as:
   DOI={10.1109/case58245.2025.11163870},
   booktitle={2025 IEEE 21st International Conference on Automation Science and Engineering (CASE)},
   publisher={IEEE},
-  author={Ali Shahid, Asad and Narang, Yashraj and Petrone, Vincenzo and Ferrentino, Enrico and Handa, Ankur and Fox, Dieter and Pavone, Marco and Roveda, Loris},
+  author={Shahid, Asad Ali and Narang, Yashraj and Petrone, Vincenzo and Ferrentino, Enrico and Handa, Ankur and Fox, Dieter and Pavone, Marco and Roveda, Loris},
   year={2025},
   month=aug,
   pages={1231–1238},
