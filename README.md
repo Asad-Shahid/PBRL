@@ -1,5 +1,5 @@
 # PBRL - Population-Based Reinforcement Learning
-[Website](https://sites.google.com/view/pbrl) | [Paper](https://doi.org/10.1109/CASE58245.2025.11163870) | [arXiv](https://doi.org/10.48550/arXiv.2404.03336) | [Videos](https://youtu.be/mcwzVm8WoiA?feature=shared)
+[Website](https://sites.google.com/view/pbrl) | [Paper](https://doi.org/10.1109/CASE58245.2025.11163870) | [arXiv](https://doi.org/10.48550/arXiv.2404.03336) | [Videos](https://youtu.be/uAhiNhe6Xas)
 
 ## About this repository
 
